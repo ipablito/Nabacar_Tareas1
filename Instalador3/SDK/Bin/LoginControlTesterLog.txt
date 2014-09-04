@@ -1,0 +1,34 @@
+Microsoft.Xrm.Tooling.CrmConnectControl Information: 8 : Created CrmConnectionManager 
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: SaveConfigToFile() - fail - C:\Users\iPabLiiTo_\AppData\Roaming\Microsoft\LoginControlTester\Default_LoginControlTester.exe
+Source	: Microsoft.Xrm.Tooling.CrmConnectControl
+Method	: SaveConfigToFile
+Date	: 30/06/2014
+Time	: 12:47:50 p. m.
+Error	: Referencia a objeto no establecida como instancia de un objeto.
+Stack Trace	: en Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.SaveConfigToFile(Dictionary`2 configToSave)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Verbose: 16 : Error Message: Failed to get credentials from Windows Vault
+Source	: Microsoft.Xrm.Tooling.CrmConnectControl
+Method	: ReadCredentials
+Date	: 30/06/2014
+Time	: 12:47:51 p. m.
+Error	: Failed to read the saved credentials.
+Stack Trace	: en Microsoft.Xrm.Tooling.CrmConnectControl.Utility.CredentialManager.ReadCredentials(String target)
+   en Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.LoadConfigFromFile(Boolean readLocalFirst)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Information: 8 : CheckBoxState = False
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : 
+Microsoft.Xrm.Tooling.CrmConnectControl Information: 8 : You must specify a CRM Server to connect too
+Microsoft.Xrm.Tooling.CrmConnectControl Verbose: 16 : Error Message: Failed to get credentials from Windows Vault
+Source	: Microsoft.Xrm.Tooling.CrmConnectControl
+Method	: ReadCredentials
+Date	: 30/06/2014
+Time	: 12:47:51 p. m.
+Error	: Failed to read the saved credentials.
+Stack Trace	: en Microsoft.Xrm.Tooling.CrmConnectControl.Utility.CredentialManager.ReadCredentials(String target)
+   en Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.LoadConfigFromFile(Boolean readLocalFirst)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Information: 8 : CheckBoxState = False

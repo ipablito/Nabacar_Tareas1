@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuickStart", "QuickStart.vbproj", "{880901BA-1895-4EFE-B111-56C5AE57B36A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuickStart with Simplified Connection", "QuickStart with Simplified Connection.vbproj", "{DCA301FF-5F2E-49BD-A7FB-615BF70BCAEB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuickStart using WinForms", "WinForms\QuickStart using WinForms.vbproj", "{5BC50BE5-3B04-4745-B911-B7BAF72DB20B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{880901BA-1895-4EFE-B111-56C5AE57B36A}.Debug|x86.ActiveCfg = Debug|x86
+		{880901BA-1895-4EFE-B111-56C5AE57B36A}.Debug|x86.Build.0 = Debug|x86
+		{880901BA-1895-4EFE-B111-56C5AE57B36A}.Release|x86.ActiveCfg = Release|x86
+		{880901BA-1895-4EFE-B111-56C5AE57B36A}.Release|x86.Build.0 = Release|x86
+		{DCA301FF-5F2E-49BD-A7FB-615BF70BCAEB}.Debug|x86.ActiveCfg = Debug|x86
+		{DCA301FF-5F2E-49BD-A7FB-615BF70BCAEB}.Debug|x86.Build.0 = Debug|x86
+		{DCA301FF-5F2E-49BD-A7FB-615BF70BCAEB}.Release|x86.ActiveCfg = Release|x86
+		{DCA301FF-5F2E-49BD-A7FB-615BF70BCAEB}.Release|x86.Build.0 = Release|x86
+		{5BC50BE5-3B04-4745-B911-B7BAF72DB20B}.Debug|x86.ActiveCfg = Debug|x86
+		{5BC50BE5-3B04-4745-B911-B7BAF72DB20B}.Debug|x86.Build.0 = Debug|x86
+		{5BC50BE5-3B04-4745-B911-B7BAF72DB20B}.Release|x86.ActiveCfg = Release|x86
+		{5BC50BE5-3B04-4745-B911-B7BAF72DB20B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\BasicOperations.exe
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\BasicOperations.pdb
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\obj\x86\Debug\BasicOperations.exe
+C:\Users\Julio\Documents\CRMSDK\SDK\SampleCode\CS\GeneralProgramming\Queries\obj\x86\Debug\BasicOperations.pdb
+D:\Programas\CRM\Proyecto\getEntitiesInfo\obj\x86\Debug\BasicOperations.exe
+D:\Programas\CRM\Proyecto\getEntitiesInfo\obj\x86\Debug\BasicOperations.pdb
+D:\Programas\CRM\Proyecto\getEntitiesInfo\obj\x86\Debug\Query.csprojResolveAssemblyReference.cache

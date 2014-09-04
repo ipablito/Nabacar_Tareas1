@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Microsoft.Crm.Sdk.Samples.Properties.Settings.DotNetNukeCMSConnectionString"
+            connectionString="Data Source=NABACAR-A;Initial Catalog=DotNetNukeCMS;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>

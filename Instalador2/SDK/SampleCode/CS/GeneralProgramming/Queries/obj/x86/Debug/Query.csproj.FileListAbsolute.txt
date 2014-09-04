@@ -1,0 +1,10 @@
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\obj\x86\Debug\Query.csprojResolveAssemblyReference.cache
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\BasicOperations.exe
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\BasicOperations.pdb
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\obj\x86\Debug\BasicOperations.exe
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\obj\x86\Debug\BasicOperations.pdb
+D:\Programas\CRM\Instalador2\SDK\SampleCode\CS\GeneralProgramming\Queries\bin\Debug\BasicOperations.exe.config

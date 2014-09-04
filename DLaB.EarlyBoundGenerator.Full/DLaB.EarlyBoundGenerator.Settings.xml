@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CrmSvcUtilRelativePath>CrmSvcUtil Ref\crmsvcutil.exe</CrmSvcUtilRelativePath>
+  <IncludeCommandLine>true</IncludeCommandLine>
+  <MaskPassword>true</MaskPassword>
+  <ExtensionConfig>
+    <AddDebuggerStepThrough>true</AddDebuggerStepThrough>
+    <CreateOneFilePerEntity>false</CreateOneFilePerEntity>
+    <EntityAttributeSpecifiedNames />
+    <EntitiesToSkip />
+    <GenerateEnumProperties>true</GenerateEnumProperties>
+    <OptionSetsToSkip />
+    <PropertyEnumMappings>
+      OpportunityProduct.OpportunityStateCode,opportunity_statuscode|
+      OpportunityProduct.PricingErrorCode,qooi_pricingerrorcode|
+      ResourceGroup.GroupTypeCode,constraintbasedgroup_grouptypecode|
+    </PropertyEnumMappings>
+    <UnmappedProperties>
+      DuplicateRule,BaseEntityTypeCode,MatchingEntityTypeCode|
+      InvoiceDetail,InvoiceStateCode|
+      LeadAddress,AddressTypeCode,ShippingMethodCode|
+      Organization,DateFormatCode,TimeFormatCode,WeekStartDayCode|
+      QuoteDetail,QuoteStateCode|
+      SalesOrderDetail,SalesOrderStateCode|
+    </UnmappedProperties>
+    <UseTfsToCheckoutFiles>false</UseTfsToCheckoutFiles>
+    <UseXrmClient>false</UseXrmClient>
+  </ExtensionConfig>
+  <ExtensionArguments>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>codecustomization</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.Entity.CustomizeCodeDomService,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>codegenerationservice</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.Entity.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>codewriterfilter</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.Entity.CodeWriterFilterService,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>namingservice</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.Entity.OverridePropertyNames,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>OptionSets</SettingType>
+      <Name>codecustomization</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.OptionSet.CreateOptionSetEnums,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>OptionSets</SettingType>
+      <Name>codegenerationservice</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.OptionSet.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+    <Argument>
+      <SettingType>OptionSets</SettingType>
+      <Name>codewriterfilter</Name>
+      <Value>DLaB.CrmSvcUtilExtensions.OptionSet.FilterOptionSetEnums,DLaB.CrmSvcUtilExtensions</Value>
+    </Argument>
+  </ExtensionArguments>
+  <UserArguments>
+    <Argument>
+      <SettingType>Both</SettingType>
+      <Name>namespace</Name>
+      <Value>CrmEarlyBound</Value>
+    </Argument>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>out</Name>
+      <Value>CrmSvcUtil Ref\Entities.cs</Value>
+    </Argument>
+    <Argument>
+      <SettingType>Entities</SettingType>
+      <Name>servicecontextname</Name>
+      <Value>CrmServiceContext</Value>
+    </Argument>
+    <Argument>
+      <SettingType>OptionSets</SettingType>
+      <Name>out</Name>
+      <Value>CrmSvcUtil Ref\OptionSets.cs</Value>
+    </Argument>
+  </UserArguments>
+</Config>
